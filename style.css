@@ -1,0 +1,41 @@
+#cardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+body {
+  background-color: black !important;
+}
+.navbar {
+  background-color: black !important;
+}
+
+/* Customize the text color of the navbar links and brand to light white */
+.navbar-nav .nav-link,
+.navbar-brand {
+  color: #ffffff !important;
+}
+
+/* Customize the color of the active navbar link */
+.navbar-nav .nav-link.active {
+  color: #ffffff !important;
+}
+
+/* Customize the color of the toggle button's grey part to white */
+.navbar-toggler-icon {
+  filter: invert(1) !important;
+}
+
+.jumbotron {
+  background-color: rgb(46, 44, 44);
+  color: rgb(233, 227, 227);
+}
+.card {
+  background-color: rgb(24, 61, 85) !important;
+  color:white;
+
+}
+.card .list-group-item{
+    background-color:rgb(31, 25, 16);
+}
